@@ -1,0 +1,19 @@
+<div data-options="dxView : { name: 'Func', title: '功能目录' } " >
+  <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
+    <div id="mainBar" data-bind="dxToolbar: toolBarOption"></div>
+    <div id="listFunc" data-bind="dxList: listOptions" class="Func-ListTop50">
+      <div data-options="dxTemplate: {name: 'item'}">
+        <table>
+          <tr>
+            <td>
+              <img data-bind="attr:{src:GetIconImage($data.IMAGEID)}" width="32px" height="32px" />
+            </td>
+            <td valign="middle" >
+              <div data-bind="text: $data.DES" style="margin-left:8px;"></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>    
+  </div>
+</div>

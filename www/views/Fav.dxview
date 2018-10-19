@@ -1,0 +1,18 @@
+<div data-options="dxView : { name: 'Fav', title: '收藏夹' } " >
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
+      <div id="listFunc" data-bind="dxList: listOptions" style="height:100%">
+        <div data-options="dxTemplate: {name: 'item'}">
+          <table>
+            <tr>
+              <td>
+                <img data-bind="attr:{src:GetIconImage($data.IMAGEID)}" width="32px" height="32px" />
+              </td>
+              <td valign="middle">
+                <div data-bind="text: $data.ITEMDESC" style="margin-left:8px"></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+</div>

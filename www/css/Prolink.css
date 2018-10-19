@@ -1,0 +1,121 @@
+﻿.ItemList-ScrollView {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.ItemList-ScrollView2 {
+    position: absolute;
+    top:50px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.Func-ListTop50 {
+    position: absolute;
+    bottom: 0;
+    top: 45px;
+    padding-bottom:45px;
+    width: 100%;
+    height: auto;
+}
+
+.ItemList-ScrollView3 {
+    position: absolute;
+    top:100px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.ItemForm {
+max-width: 750px;
+margin: 0 auto;
+}
+
+.dx-icon-mycopy {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACbElEQVRIS+2Wv2+xURTHD339qOhQFVRi9QdImvgDDE0aOhjF4E9oLPwLikmwSJeGRCwidDWRCKYuBobGIhZJ24QE973nuLxefXgerbGf5KTnOfc+vj33nnueC0whxWKRAYAie3p6Em99Rc0nKGI2m8H19TX+g+RLGY5dXV1BKBSCZDIp3tyBZBWQy+WYzWYTT/tRq9Usn89TpvF4XET/oViw3+8zk8kknvaDQt1ul72/v5P/+PgoRlb8iUaj8Pn5CcvlEhOWhM+DQCAA4/FYRA7DxcBoNMJoNAKr1QoqlQrC4TCNqbgxr9cLGo1GUlSr1UK73YbBYAAvLy9we3srRqTBH282m+B2u+n54+MDLi4uaE8fHh4otsr1ALFYjDkcDlqiarUqotLgnEQiwRqNBqvX66zT6bDn52eKY/WSIK8wMV0avuzM7/ezt7c3erFcLouRrzidTpqzbWdnZ8xsNpOv+FhMJhPgWUKr1YL7+3uo1Wpi5H96vR7t+bbN5/PN/isWXHNzcwN8meDu7g4qlYqIyoPnFFEsaDAYhAfgcrlgOByCz+cDvqciqhzZPYxEIrT+vNrY+fk5mcVi2ewRFoYc0+mU5tKxwHSx/PeBR+L19RV4FxGRFbwQwOPxQCaTgWAwKKLSoIZerydfNsND2O12Kns51hkeXTS7HOpQUvxY8Fh+BU/Or+DJ0Ol09FdRpzkEXqzS6TT52WwWeNsjfxvsUPjFwGZ/EsFUKgWXl5dQKBQ27WsXFMVrB/Kj1oY3OSWtbQ3tIf8ik/J3wDvMMZAgXnRwjXFpjzFksVgcLbr5rn3XSqWSWDA5GPsL7m/lAFZEpvQAAAAASUVORK5CYII=) 0 0 no-repeat;
+}
+
+.indicator {
+    position:absolute; 
+    top: 50%; 
+    left: 50%; 
+    width:32px;
+    height:32px;
+    margin: -16px 0 0 -16px;
+    z-index:9999;
+}
+
+.ButtonLeft {
+    margin-left:10px;
+    margin-bottom:50px;
+    height:45px;
+    width:45%;
+    float:left;
+    background-color:#00C5CD;
+    display:inline;
+}
+
+.ButtonRight {
+    margin-right:10px;
+    margin-bottom:50px;
+    height:45px;
+    width:45%;
+    float:right;
+    background-color:#00C5CD;
+    display:inline;
+}
+
+.ButtonCenter {
+    width: 50%;
+    background-color:#00C5CD;
+    color:white;
+}
+
+.Inline {
+    display:inline;
+    float:left;
+    width:100px;
+}
+
+.Editable {
+    color:blue
+}
+
+.EditableR {
+    color:red
+}
+
+.TrusteemHeader {
+        background-color: #00C5CD;
+        color:#FFFFFF;
+}
+
+.dx-nav-item
+{
+    background: #00C5CD;
+    color:#FFFFFF;
+}
+
+.dx-nav-item .dx-icon {
+    color:#FFFFFF;
+}
+
+.dx-nav-item.dx-tab-selected
+{
+    background: #40E0D0;
+    color:#FFFFFF;
+}
+
+.dx-toolbar{
+    margin:10px 10px 10px 10px;
+}
+
+.navbar-layout .layout-header .dx-toolbar{
+    margin:0 0 0 0;
+}
+

@@ -1,0 +1,32 @@
+<div data-options="dxView : { name: 'Dash', title: '待办事项' } " >
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
+        <div class="indicator" data-bind="dxLoadIndicator: { visible: indicatorVisible }"></div>
+        <div id="scrollView" class="ItemList-ScrollView" data-bind="dxScrollView: {
+                pullingDownText:'下拉刷新',
+                useNative: false,
+                onPullDown:onScrollViewPullingDown
+            }">
+            <div id="listDash" data-bind="dxList: listOptions">
+                <div data-options="dxTemplate: {name: 'item'}">
+                    <div class="dash-item-header">
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    当前步骤：<div data-bind="text: $data.GROUPDESC"></div>
+                                </td>
+                                <td>
+                                    发起人：<div data-bind="text: $data.DOCOWNER"></div>
+                                </td>
+                                <td>
+                                    单据号：<div data-bind="text: $data.DOCID"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div data-bind="text: $data.SUBJECT"></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<div data-options="dxView : { name: 'Config', title: '设置' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
+        <div class="dx-fieldset">
+            <div class="dx-field">
+                <div id="lblAddress" class="dx-field-label">服务器地址：</div>
+                <div class="dx-field-value"><div data-bind="dxTextArea: {value: serviceURL,height: '70px'}"></div></div>
+            </div>
+            <div id="btnSave" class="Login_Btn" data-bind="dxButton: { text: '保存', onClick:onSaveClick}"></div>
+            <div><br /></div>
+            <div id="btnLogoff" class="Login_Btn" data-bind="dxButton: { text: '注销', onClick:onLogoffClick}"></div>
+            <div><br /></div>
+            <div id="btnScan" class="Login_Btn" data-bind="dxButton: { text: '扫描', onClick:onScan}"></div>
+        </div>
+       
+    </div>
+</div>

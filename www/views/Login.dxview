@@ -1,0 +1,51 @@
+﻿<div data-options="dxView : { name: 'Login', title: '' } " >
+  <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
+    <div class="indicator" data-bind="dxLoadIndicator: { visible: indicatorVisible }"></div>
+      <img id="logoImg" style="margin-top:20px;" src="" onerror="javascript:this.src='images/logo.png'"  width="100%" />
+      <!--<img id="logoImg" src="" width="100%" />-->
+      <!--<div data-bind="dxRadioGroup: { items: [ '使用内部账户登录', '使用通行证登录'], layout: 'horizontal' }" style="margin-top:20px;margin-left:20px"></div>-->
+      <div style="margin-top:20px;" class="dx-fieldset">
+      <div class="dx-field">
+        <div class="dx-field-label"></div>
+        <div id="txtUser" style="width:100%;" class="dx-field-value" data-bind="dxTextBox: {
+                 maxLength: 24,
+                 placeholder: '请输入用户名',
+                 value:username
+               }"></div>
+      </div>
+      <div class="dx-field">
+        <div id="txtPwd" style="width:100%;" class="dx-field-value" data-bind="dxTextBox: {
+                   mode: 'password',
+                   placeholder: '请输入密码',
+                   value:password
+                }"></div>
+      </div>
+      <div id="btnLogin" class="Login_Btn" data-bind="dxButton: { text: '登录',onClick:onLoginClick}"></div>
+      <table width="100%" style="margin-top:100px">
+          <!--<tr>
+              <td>
+                  <div>chn:</div><div data-bind="text:chn"></div>
+                  <div>uuid:</div><div data-bind="text:deviceid"></div>
+              </td>
+          </tr>
+        <tr>
+          <td width="100%" align="center">
+            <a href="http://www.trusteem.com.cn/">http://www.trusteem.com.cn/</a>
+          </td>
+        </tr>
+        <tr>
+          <td width="100%" align="center">
+            021-52399994
+          </td>
+        </tr>-->
+        <tr>
+          <td width="100%" align="center">
+            <div>
+              <div id="appver">1.4.0</div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

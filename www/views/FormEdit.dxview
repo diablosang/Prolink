@@ -1,0 +1,30 @@
+<div data-options="dxView : { name: 'FormEdit', title: '' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
+        <div id="loadIndicator" class="indicator" data-bind="dxLoadIndicator: { visible: indicatorVisible }"></div>
+        <div id="mainBar" data-bind="dxToolbar: toolBarOption"></div>
+        <div id="divTab" data-bind="dxTabs: {}"></div>
+        <div data-bind="dxScrollView: {useNative: false }" class="ItemList-ScrollView3">
+            <div id="divBlock"></div>
+        </div>      
+        <div data-bind="dxPopup: { title: '审批意见', showTitle: true, visible:commentVisible,height:250}">
+            <div>
+                <table width="100%">
+                    <tr>
+                        <td width="100%">
+                            <div data-bind="dxTextArea: {text:comment,height:90}">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <div class="ButtonCenter" data-bind="dxButton: { text: '确定',onClick: onCommentClick}"></div>
+                        </td>
+                    </tr>
+                </table>              
+            </div>            
+        </div>
+    </div>
+</div>
